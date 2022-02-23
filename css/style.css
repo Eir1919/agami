@@ -4893,7 +4893,7 @@ body {
 
 @media (max-width: 580px) {
     .about-desc-text-left {
-        width: 500px;
+        width: 490px;
     }
 
     .about-list-left {
@@ -5015,7 +5015,6 @@ body {
         position: relative;
     }
 
-
     .reviews-top-part-580::after {
         content: "";
     
@@ -5102,5 +5101,134 @@ body {
 
     .rating-container {
         justify-content: start;
+    }
+
+    .question-answer-title {
+            min-width: 440px;
+    }
+}
+
+@media (max-width: 560px) {
+    .about-desc-text-left {
+        width: 480px;
+    }
+
+    .about-list-left {
+        width: 400px;
+    }
+
+    .about-list-right {
+        width: 390px;
+    }
+
+    .treatment-tooltip {
+        top: 2920px;
+    }
+
+    .technologies-box {
+        width: 443px;
+    }
+
+    .case-switcher-icon-right {
+        left: 489px;
+    }
+
+    .case-switcher-photo {
+        width: 272px;
+    }
+
+    .lower-text {
+        left: 310px;
+        top: 174px;
+    }
+
+    .reviews-top-part-580::after {
+        width: 463px;
+    }
+
+    .prices-item {
+        width: 463px;
+    }
+
+    .prices-item:nth-child(1)::after {
+        width: 463px;
+    }
+
+    .prices-item:nth-child(3)::after {
+        width: 463px;
+    }
+
+    .prices-item:nth-child(4)::after {
+        width: 463px;
+    }
+
+    .reception-text {
+        width: 470px;
+    }
+
+    .question-answer-title-container {
+        border-radius: 0;
+        width: 544px;
+        position: relative;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, 0);
+    }
+
+    .question-answer-title-up {
+        padding: 10px 20px 10px 40px;
+        width: 80%;
+        font-size: 16px;
+    }
+
+    .question-answer-title-up::after {
+        left: 503px;
+        top: 25px;
+    }
+
+    .question-answer-text {
+        min-width: 440px;
+    }
+
+    .question-answer-title-up::after {
+        left: 483px;
+        top: 25px;
+    }
+
+    .question-answer-table {
+        width: 463px;
+    }
+
+    .question-answer-text-container-768 {
+        min-width: 430px;
+    }
+
+    .question-answer-title-container-lower {
+        border-radius: 0;
+        width: 544px;
+        position: relative;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, 0);
+    }
+
+    .question-answer-title-down {
+        width: 90%;
+        font-size: 16px;
+
+        padding: 22px 40px 22px 40px;
+    }
+
+    .question-answer-title-down::after {
+        top: 24px;
+        left: 483px;
+    }
+
+    .rating-text {
+        width: 450px;
+    }
+
+    .rating-container {
+        justify-content: flex-start;
     }
 }
