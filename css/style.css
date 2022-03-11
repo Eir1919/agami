@@ -94,7 +94,7 @@ body {
     position: relative;
 }
 
-.site-navigation-item:nth-child(1):after {
+.site-navigation-item:nth-child(1)::after {
     content: "/";
 
     position: absolute;
@@ -102,7 +102,7 @@ body {
     left: 68px;
 }
 
-.site-navigation-item:nth-child(2):after {
+.site-navigation-item:nth-child(2)::after {
     content: "/";
 
     position: absolute;
@@ -1032,6 +1032,10 @@ body {
     align-items: baseline;
 
     margin-top: 40px;
+}
+
+.prices-item-540 {
+    display: none;
 }
 
 .prices-item:not(:nth-of-type(1)) {
@@ -5230,5 +5234,445 @@ body {
 
     .rating-container {
         justify-content: flex-start;
+    }
+}
+
+@media (max-width: 540px) {
+    .about-desc-text-left {
+        width: 450px;
+    }
+
+    .about-list-left {
+        width: 370px;
+    }
+
+    .about-list-right {
+        width: 370px;
+    }
+
+    .technologies-box {
+        width: 423px;
+    }
+
+    .technologies-warning-text {
+        font-size: 19px;
+    }
+
+    .case-switcher-icon-right {
+        left: 469px;
+    }
+
+    .case-switcher-photo {
+        width: 262px;
+        height: 212px;
+    }
+
+    .reviews-top-part-580::after {
+        width: 443px;
+    }
+
+    /* prices-inner ПЕРЕДЕЛАТЬ */
+
+    .reception-text {
+        width: 440px;
+    }
+
+    .question-answer-title-up {
+        padding: 10px 20px 10px 50px;
+    }
+
+    .question-answer-title-up::after {
+        left: 473px;
+    }
+
+    .question-answer-text {
+        min-width: 420px;
+    }
+
+    .question-answer-table {
+        width: 443px;
+    }
+
+    .question-answer-text-container-768 {
+        min-width: 410px;
+    }
+
+    .question-answer-title {
+        min-width: 430px;
+    }
+
+    .question-answer-title-down {
+        width: 60%;
+
+        padding: 10px 20px 10px 50px;
+    }
+
+    .question-answer-title-down::after {
+        top: 25px;
+        left: 473px;
+    }
+
+    .rating-container {
+        justify-content: center;
+    }
+
+    .prices-item {
+        display: none;
+    }
+
+    .prices-item-540 {
+        display: flex;
+        flex-direction: column;
+
+        width: 360px;
+
+        position: relative;
+
+        margin-bottom: 80px;
+    }
+
+    .prices-item-540:last-child {
+        margin-bottom: 0;
+    }
+
+    .prices-item-540:nth-child(6)::after {
+        content: "";
+
+        position: absolute;
+        top: 410px;
+        left: 0;
+
+        width: 443px;
+        height: 1px;
+
+        background-color: #0057b1;
+    }
+
+    .prices-item-540:nth-child(7)::after {
+        content: "";
+
+        position: absolute;
+        top: 385px;
+        left: 0;
+
+        width: 443px;
+        height: 1px;
+
+        background-color: #0057b1;
+    }
+
+    .prices-item-540:nth-child(8)::after {
+        content: "";
+
+        position: absolute;
+        top: 540px;
+        left: 0;
+
+        width: 443px;
+        height: 1px;
+
+        background-color: #0057b1;
+    }
+
+    .prices-top-side {
+        margin-bottom: 40px;
+    }
+
+    .prices-title {
+        max-width: 100%;
+
+        margin-bottom: 10px;
+    }
+
+    .prices-link-right-side {
+        width: unset;
+
+        background-color: #e7f3fc;
+        border-radius: 100px;
+
+        padding: 10px 28px;
+
+        margin: 0;
+    }
+}
+
+@media (max-width: 510px) {
+    .main-description {
+        width: 390px;
+    }
+
+    .about-desc-text-left {
+        width: 420px;
+    }
+
+    .about-list-left {
+        width: 330px;
+    }
+
+    .about-list-right {
+        width: 350px;
+    }
+
+    .quote-desc {
+        font-size: 28px;
+    }
+
+    .quote-name-768 {
+        font-size: 14px;
+    }
+
+    .quote-spec-768 {
+        font-size: 14px;
+    }
+
+    .treatment-list-left-side {
+        position: relative;
+    }
+
+    .treatment-tooltip {
+        top: 48px;
+        left: 183px;
+
+        width: 100%;
+    }
+
+    .technologies-box {
+        width: 393px;
+    }
+
+    .technologies-warning-text {
+        font-size: 17px;
+    }
+
+    .case-switcher-icon-right {
+        left: 439px;
+    }
+
+    .case-switcher-photo {
+        width: 247px;
+        height: 210px;
+    }
+
+    .lower-text {
+        left: 286px;
+        top: 162px;
+    }
+
+    .upper-text {
+        left: 40px;
+        top: 159px;
+    }
+
+    .reviews-top-part-580::after {
+        width: 413px;
+    }
+
+    .prices-item-540:nth-child(6)::after {
+        width: 413px;
+    }
+
+    .prices-item-540:nth-child(7)::after {
+        width: 413px;
+    }
+
+    .prices-item-540:nth-child(8)::after {
+        width: 413px;
+    }
+
+    .prices-list-item {
+        width: 100%;
+    }
+
+    .doctors-buttons {
+        column-gap: 11px;
+        row-gap: 11px;
+    }
+
+    .prices-item-540:nth-child(6)::after {
+        top: 430px;
+    }
+
+    .prices-item-540:nth-child(7)::after {
+        top: 405px;
+    }
+
+    .prices-item-540:nth-child(8)::after {
+        top: 585px;
+    }
+
+    .question-answer-title-up {
+        padding: 10px 20px 10px 66px;
+    }
+
+    .question-answer-title-up::after {
+        left: 458px;
+    }
+
+    .question-answer-text {
+        min-width: 380px;
+    }
+
+    .question-answer-table {
+        width: 410px;
+    }
+
+    .question-answer-text-container-768 {
+        min-width: 390px;
+    }
+
+    .question-answer-title-down {
+        width: 70%;
+        padding: 10px 20px 10px 66px;
+    }
+
+    .question-answer-title-down::after {
+        left: 458px;
+    }
+
+    .rating-text {
+        width: 380px;
+    }
+
+    .rating-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .rating-image {
+        width: 80%;
+    }
+
+    .rating-company {
+        margin-top: auto;
+    }
+
+    .main-footer-heading-links {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 490px) {
+    .site-navigation-link {
+        font-size: 14px;
+    }
+
+    .main-header {
+        background-position: right;
+    }
+
+    .about-list-left {
+        width: 320px;
+    }
+
+    .about-list-right {
+        width: 330px;
+    }
+
+    .quote-desc {
+        font-size: 26px;
+    }
+
+    .quote-text-and-image {
+        column-gap: 10px;
+    }
+
+    .treatment-image {
+        left: 182px;
+    }
+
+    .treatment-tooltip {
+        top: 48px;
+        left: 14px;
+    }
+
+    .case-switcher-icon-right {
+        left: 419px;
+    }
+
+    .case-switcher-photo {
+        width: 237px;
+        height: 200px;
+    }
+
+    .lower-text {
+        left: 276px;
+        top: 152px;
+    }
+
+    .upper-text {
+        left: 40px;
+        top: 149px;
+    }
+
+    .main-description {
+        font-size: 14px;
+    }
+
+    .doctors-button-active {
+        padding: 12px 30px;
+    }
+
+    .doctors-button-passive {
+        padding: 14px 22px;
+    }
+
+    .reviews-top-part-580::after {
+        width: 393px;
+    }
+
+    .prices-item-540:nth-child(6)::after {
+        width: 393px;
+    }
+
+    .prices-item-540:nth-child(7)::after {
+        width: 393px;
+    }
+
+    .prices-item-540:nth-child(8)::after {
+        width: 393px;
+    }
+
+    .reception-text {
+        width: 390px;
+    }
+
+    .question-answer-title-up {
+        padding: 10px 20px 10px 75px;
+    }
+
+    .question-answer-title-up::after {
+        left: 448px;
+    }
+
+    .question-answer-text {
+        min-width: 350px;
+    }
+
+    .question-answer-table {
+        width: 390px;
+    }
+
+    .question-answer-text-container-768 {
+        min-width: 360px;
+    }
+
+    .question-answer-title-down {
+        padding: 10px 20px 10px 76px;
+    }
+
+    .question-answer-title-down::after {
+        left: 448px;
+    }
+
+    .technologies-second-item {
+        display: none;
+    }
+
+    .technologies-box {
+        width: 100%;
+    }
+
+    .reviews-button {
+        padding: 16px 50px 16px 40px;
     }
 }
