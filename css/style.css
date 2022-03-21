@@ -3224,6 +3224,10 @@ body {
         margin: 0;
     }
 
+    .canal-treatment-link {
+        line-height: 0;
+    }
+
     .canal-treatment-icon {
         cursor: pointer;
     }
@@ -5674,5 +5678,141 @@ body {
 
     .reviews-button {
         padding: 16px 50px 16px 40px;
+    }
+}
+
+@media (max-width: 470px) {
+    .main-navigation {
+        visibility: hidden;
+        height: 260px;
+    }
+
+    .about-desc-text-left {
+        width: 370px;
+    }
+
+    .about-desc-text-right {
+        width: 375px;
+    }
+
+    .about-list-left {
+        width: 290px;
+    }
+
+    .about-title {
+        font-size: 19px;
+    }
+
+    .about-list-right {
+        width: 290px;
+    }
+
+    .title-treatment {
+        font-size: 26px;
+    }
+
+    .case-switcher-icon-right {
+        left: 399px;
+        top: 73px;
+    }
+
+    .case-switcher-icon-left {
+        top: 73px;
+    }
+
+    .case-switcher-photo {
+        width: 227px;
+        height: 190px;
+    }
+
+    .upper-text,
+    .lower-text {
+        display: none;
+    }
+
+    .doctors-button-active {
+        padding: 12px 24px;
+    }
+
+    .doctors-button-passive {
+        padding: 14px 20px;
+    }
+
+    .reviews-top-part-580::after {
+        width: 393px;
+    }
+
+    .reviews-top-part-580::after {
+        width: 373px;
+    }
+
+    .reviews-switcher {
+        margin-top: 40px;
+        row-gap: 20px;
+        flex-direction: column;
+    }
+
+    .reviews-button {
+        padding: 18px 60px 18px 40px;
+    }
+
+    .reviews-top-part-580::after {
+        top: 175px;
+    }
+
+    .prices-item-540:nth-child(6)::after {
+        width: 373px;
+    }
+
+    .prices-item-540:nth-child(7)::after {
+        width: 373px;
+    }
+
+    .prices-item-540:nth-child(8)::after {
+        width: 373px;
+    }
+
+    .reception-text {
+        width: 360px;
+    }
+
+    .reception-title {
+        font-size: 26px;
+    }
+
+    .title-question {
+        font-size: 26px;
+    }
+
+    .question-answer-title-up {
+        padding: 10px 20px 10px 85px;
+    }
+
+    .question-answer-title-up::after {
+        left: 438px;
+    }
+
+    .question-answer-text {
+        min-width: 330px;
+    }
+
+    .question-answer-table {
+        width: 370px;
+    }
+
+    .question-answer-text-container-768 {
+        min-width: 330px;
+    }
+
+    .question-answer-title-down {
+        padding: 10px 20px 10px 85px;
+    }
+
+    .question-answer-title-down::after {
+        left: 438px;
+    }
+
+    .quote-name-768 {
+        line-height: 24px;
     }
 }
