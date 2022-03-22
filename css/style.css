@@ -5815,4 +5815,104 @@ body {
     .quote-name-768 {
         line-height: 24px;
     }
+
+    .title-rating {
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 450px) {
+    .about-desc-text-left {
+        width: 360px;
+    }
+
+    .about-list-left {
+        width: 270px;
+    }
+
+    .about-list-right {
+        width: 270px;
+    }
+
+    .title-treatment {
+        font-size: 24px;
+    }
+
+    .case-switcher-icon-right {
+        left: 379px;
+    }
+
+    .case-switcher-photo {
+        width: 217px;
+        height: 190px;
+    }
+
+    .doctors-button-active {
+        padding: 10px 16px;
+    }
+
+    .doctors-button-passive {
+        padding: 10px 18px;
+    }
+
+    .last-button {
+        height: 45px;
+    }
+
+    .reviews-top-part-580::after {
+        width: 353px;
+    }
+
+    .prices-item-540:nth-child(6)::after {
+        width: 353px;
+    }
+
+    .prices-item-540:nth-child(7)::after {
+        width: 353px;
+    }
+
+    .prices-item-540:nth-child(8)::after {
+        width: 353px;
+    }
+
+    .question-answer-title-up {
+        padding: 10px 20px 10px 95px;
+    }
+
+    .question-answer-title-up::after {
+        left: 428px;
+    }
+
+    .question-answer-table {
+        font-size: 13px;
+        width: 350px;
+    }
+
+    .question-answer-table-cell {
+        padding: 12px 18px 12px 18px;
+    }
+
+    .question-answer-text-container-768 {
+        min-width: 320px;
+    }
+
+    .question-answer-title-down {
+        padding: 10px 20px 10px 95px;
+    }
+
+    .question-answer-title-down::after {
+        left: 428px;
+    }
+
+    .rating-text {
+        width: 360px;
+    }
+
+    .quote-desc {
+        font-size: 24px;
+    }
+
+    .about-title {
+        font-size: 18.5px;
+    }
 }
