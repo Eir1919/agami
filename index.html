@@ -559,7 +559,7 @@
                 <div class="doctors-inner">
                     <h2 class="title-doctors">Врачи клиники</h2>
                     <div class="doctors-buttons">
-                        <button class="doctors-button-active">Показать всех</button>
+                        <a class="doctors-button-active btn-link" href="#show-all">Показать всех</a>
                         <button class="doctors-button-passive">Ул. Советской Армии д. 17/52</button>
                         <button class="doctors-button-passive last-button">Наставнический пер. д. 17 стр. 1</button>
                     </div>
@@ -802,7 +802,7 @@
                         </div>
                         <div class="prices-bottom-side">
                             <h3 class="prices-title grey">от 6 500 до 13 000 рублей</h3>
-                            <a class="prices-link-right-side" tabindex="0">
+                            <a class="prices-link-right-side" href="#" tabindex="0">
                                 Узнать почему такая стоимость<img class="prices-image" src="/images/prices-arrow.svg" alt="">
                             </a>
                         </div>
@@ -820,7 +820,7 @@
                         </div>
                         <div class="prices-bottom-side">
                             <h3 class="prices-title grey">от 7 500 до 14 700 рублей</h3>
-                            <a class="prices-link-right-side" tabindex="0">
+                            <a class="prices-link-right-side" href="#" tabindex="0">
                                 Узнать почему такая стоимость<img class="prices-image" src="/images/prices-arrow.svg" alt="">
                             </a>
                         </div>
@@ -840,7 +840,7 @@
                         </div>
                         <div class="prices-bottom-side">
                             <h3 class="prices-title grey">от 8 000 до 15 500 рублей</h3>
-                            <a class="prices-link-right-side" tabindex="0">
+                            <a class="prices-link-right-side" href="#" tabindex="0">
                                 Узнать почему такая стоимость<img class="prices-image" src="/images/prices-arrow.svg" alt="">
                             </a>
                         </div>
@@ -859,7 +859,7 @@
                         </div>
                         <div class="prices-bottom-side">
                             <h3 class="prices-title grey">от 9 500 до 18 500 рублей</h3>
-                            <a class="prices-link-right-side" tabindex="0">
+                            <a class="prices-link-right-side" href="#" tabindex="0">
                                 Узнать почему такая стоимость<img class="prices-image" src="/images/prices-arrow.svg" alt="">
                             </a>
                         </div>
@@ -904,6 +904,26 @@
                             </p>
                         </div>
                         <h3 class="question-answer-title grey">Из каких услуг складывается пломбирование каналов?</h3>
+                        <!-- List instead of table at 540px resolution -->
+                        <div class="question-answer-inner-lists">
+                            <div class="question-answer-agami">
+                                <h4 class="question-answer-title-4">Клиника АГАМИ</h4>
+                                <ol class="question-answer-list">
+                                    <li>Рентгенологический снимок (до и после)</li>
+                                    <li>Анестезия (разные виды - аппликационная, проводниковая или инфильтрационная)</li>
+                                    <li>Наложение коффердама (или роббердама)</li>
+                                    <li>Механическая и медикаментозная обработка канала(ов)</li>
+                                    <li>Наложение временной пломбы</li>
+                                </ol>
+                            </div>
+                            <div class="question-answer-other">
+                                <h4 class="question-answer-title-4">Большинство стоматологий</h4>
+                                <ol class="question-answer-list">
+                                    <li>Пломбирование каналов зуба</li>
+                                </ol>
+                            </div>
+                        </div>
+                        <!-- List instead of table at 540px resolution -->
                         <table class="question-answer-table">
                             <tbody>
                                 <tr class="question-answer-table-row">
@@ -982,48 +1002,68 @@
                     </p>
                     <div class="rating-container">
                         <div class="rating-company">
-                            <img class="rating-image" src="/images/rating-image-1.svg" alt="">
+                            <a href="#">
+                                <img class="rating-image" src="/images/rating-image-1.svg" alt="Яндекс">
+                            </a>
                             <p class="rating-company-text">4,4 из 5</p>
                         </div>
                         <div class="rating-company">
-                            <img class="rating-image" src="/images/rating-image-2.svg" alt="">
+                            <a href="#">
+                                <img class="rating-image" src="/images/rating-image-2.svg" alt="Startsmile">
+                            </a>
                             <p class="rating-company-text">5 из 5</p>
                         </div>
                         <div class="rating-company">
-                            <img class="rating-image" src="/images/rating-image-3.svg" alt="">
+                            <a href="#">
+                                <img class="rating-image" src="/images/rating-image-3.svg" alt="Zoon">
+                            </a>
                             <p class="rating-company-text">4,5 из 5</p>
                         </div>
                         <div class="rating-company">
-                            <img class="rating-image" src="/images/rating-image-4.png" alt="">
+                            <a href="#">
+                                <img class="rating-image" src="/images/rating-image-4.png" alt="ПроДокторов">
+                            </a>
                             <p class="rating-company-text">4 из 5</p>
                         </div>
                         <div class="rating-company">
-                            <img class="rating-image" src="/images/rating-image-5.png" alt="">
+                            <a href="#">
+                                <img class="rating-image" src="/images/rating-image-5.png" alt="Yell">
+                            </a>
                             <p class="rating-company-text">4,8 из 5</p>
                         </div>
                     </div> <!-- rating-container -->
                     <div class="rating-container-430">
                         <div class="rating-container-1-row">
                             <div class="rating-company">
-                                <img class="rating-image" src="/images/rating-image-1.svg" alt="">
+                                <a href="#">
+                                    <img class="rating-image" src="/images/rating-image-1.svg" alt="Яндекс">
+                                </a>
                                 <p class="rating-company-text">4,4 из 5</p>
                             </div>
                             <div class="rating-company">
-                                <img class="rating-image" src="/images/rating-image-2.svg" alt="">
+                                <a href="#">
+                                    <img class="rating-image" src="/images/rating-image-2.svg" alt="Startsmile">
+                                </a>
                                 <p class="rating-company-text">5 из 5</p>
                             </div>
                             <div class="rating-company">
-                                <img class="rating-image" src="/images/rating-image-3.svg" alt="">
+                                <a href="#">
+                                    <img class="rating-image" src="/images/rating-image-3.svg" alt="Zoon">
+                                </a>
                                 <p class="rating-company-text">4,5 из 5</p>
                             </div>
                         </div>
                         <div class="rating-container-2-row">
                             <div class="rating-company">
-                                <img class="rating-image" src="/images/rating-image-4.png" alt="">
+                                <a href="#">
+                                    <img class="rating-image" src="/images/rating-image-4.png" alt="ПроДокторов">
+                                </a>
                                 <p class="rating-company-text">4 из 5</p>
                             </div>
                             <div class="rating-company">
-                                <img class="rating-image" src="/images/rating-image-5.png" alt="">
+                                <a href="#">
+                                    <img class="rating-image" src="/images/rating-image-5.png" alt="Yell">
+                                </a>
                                 <p class="rating-company-text">4,8 из 5</p>
                             </div>
                         </div>
