@@ -1,22 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>agami</title>
+    <title>Стоматология АГАМИ - ведущая клиника Москвы</title>
+    <meta property="og:title" content="Стоматология АГАМИ - ведущая клиника Москвы">
+    <meta property="og:description" content="Стоматологическая клиника АГАМИ более 20 лет предоставляет полный комплекс услуг и по праву является одной из ведущих стоматологических клиник Москвы">
+    <meta property="og:keywords" content="стоматология агами стоматологическая клиника agami">
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="icon" type="image/png" href="/images/favicon.ico">
 </head>
 <body>
     <header class="main-header">
         <div class="container">
             <div class="main-header-1024">
                 <div class="main-header-1024-inner">
-                    <div class="main-header-hamburger-menu" tabindex="0" aria-label="Меню">
+                    <div class="main-header-hamburger-menu" tabindex="0">
+                        <span class="visually-hidden">Меню</span>
                         <div class="bar-1"></div>
                         <div class="bar-2"></div>
                         <div class="bar-3"></div>
@@ -77,8 +82,8 @@
                                 </li>
                             </ul>
                         </div>
-                        <ul class="services-navigation-list">
-                            <div class="services-navigation-list-first-row">
+                        <div class="services-navigation-list-wrapper">
+                            <ul class="services-navigation-list-first-row">
                                 <li class="services-navigation-item">
                                     <img src="/images/services-icon.svg" alt="">
                                     <a class="services-navigation-link" href="/">Эндодонтия</a>
@@ -95,8 +100,8 @@
                                     <img src="/images/services-icon.svg" alt="">
                                     <a class="services-navigation-link" href="/">Стоимость услуги</a>
                                 </li>
-                            </div>
-                            <div class="services-navigation-list-second-row">
+                            </ul>
+                            <ul class="services-navigation-list-second-row">
                                 <li class="services-navigation-item">
                                     <img src="/images/services-icon.svg" alt="">
                                     <a class="services-navigation-link" href="/">Технологии</a>
@@ -113,8 +118,8 @@
                                     <img src="/images/services-icon.svg" alt="">
                                     <a class="services-navigation-link" href="/">Вопрос-ответ</a>
                                 </li>
-                            </div>
-                        </ul>
+                            </ul>
+                        </div>
                 </nav>
             </div>
         </div>
@@ -149,6 +154,8 @@
 
                 <div class="about-inner">
                     <h2 class="title-about">Лечение каналов</h2>
+                    <h2 class="title-about-375">Эндодонтия — лечение
+                        каналов</h2>
                     <div class="about-desc">
                         <p class="about-desc-text-left">Эндодонтия — это область стоматологии, занимающаяся  диагностикой и лечением 
                             заболеваний корневых каналов зубов.
@@ -159,10 +166,35 @@
                             ткани, к ранней потере зубов. Даже самая красивая реставрация или коронка
                             не продержится долго, если канал некачественно запломбирован.
                         </p>
+                        <p class="about-desc-text-left-375">В клинике АГАМИ лечение корневых каналов проводится специалистами-
+                            эндодонтами, прошедшими углубленное обучение и владеющими самыми
+                            современными навыками и технологиями в данной области. При лечении
+                            наших пациентов мы добиваемся долгосрочного результата!
+                        </p>
                         <p class="about-desc-text-right">
                             <span>Клиника АГАМИ</span> — одна из ведущих эндодонтических клиник России.
                         </p>
                     </div>
+                    <div class="canal-treatment-375">
+                        <div class="canal-treatment-inner">
+                            <p class="canal-treatment-text">
+                                Лечение каналов
+                            </p>
+                            <button class="canal-treatment-btn" type="button">
+                                <svg class="canal-treatment-icon" width="35" height="35" role="img" aria-label="Стрелка указывающая вверх" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <ellipse cx="17.4999" cy="17.5" rx="17.5" ry="17.4999" transform="rotate(-90 17.4999 17.5)" fill="#4E9AEA"/>
+                                    <path d="M17.6125 8.39998C17.0981 8.39998 16.7123 8.65632 16.4551 8.91265C16.4551 8.91265 16.3265 9.04082 16.3265 9.16899L10.2823 15.0648C9.6393 15.7056 9.6393 16.6028 10.2823 17.2436C10.9253 17.7563 11.9541 17.7563 12.4685 17.1155L16.0693 13.5267L16.0693 25.0619C16.0693 25.9591 16.7123 26.6 17.6125 26.6C18.5127 26.6 19.1557 25.9591 19.1557 25.0619L19.1557 13.6549L22.6279 17.1155C23.2709 17.7563 24.1711 17.7563 24.8141 17.1155C25.3285 16.6028 25.3285 15.5774 24.8141 15.0648L19.0271 9.29716C18.7699 8.78449 18.2555 8.39998 17.6125 8.39998Z" fill="white"/>
+                                </svg>
+                            </button>                    
+                        </div>
+                    </div>
+                    <p class="about-desc-text-left-375-second">Эндодонтия — это область стоматологии, занимающаяся диагностикой и лечением заболеваний корневых каналов зубов.
+
+                        Некачественное лечение и пломбирование корневых каналов в конечном счете приводит к воспалениям не только самого зуба, но и окружающей его костной ткани, к ранней потере зубов. Даже самая красивая реставрация или коронка не продержится долго, если канал некачественно запломбирован.
+                    </p>
+                    <p class="about-desc-text-right-375">
+                        <span>Клиника АГАМИ</span> — одна из ведущих эндодонтических клиник России.
+                    </p>
                     <div class="about-list">
                         <div class="container-list-left">
                             <div class="container-list-left-inner">
@@ -170,32 +202,32 @@
                                 <ul class="about-list-left">
                                     <li class="about-list-item">
                                         <img src="/images/about-icon-left.svg" alt="">
-                                        <a class="about-list-link" href="/">
+                                        <p class="about-list-text">
                                             Зубокорневой канал имеет ширину до миллиметра.
                                             Микроскоп позволяет рассмотреть его в максимальном увеличении.
-                                        </a>
+                                        </p>
                                     </li>
                                     <li class="about-list-item">
                                         <img src="/images/about-icon-left.svg" alt="">
-                                        <a class="about-list-link" href="/">
+                                        <p class="about-list-text">
                                             Благодаря такому увеличению врач может увидеть и удалить
                                             все пораженные участки тканей, а также фрагменты
                                             оставленных инструментов.
-                                        </a>
+                                        </p>
                                     </li>
                                     <li class="about-list-item">
                                         <img src="/images/about-icon-left.svg" alt="">
-                                        <a class="about-list-link" href="/">
+                                        <p class="about-list-text">
                                             Такой способ позволяет контролировать плотность
                                             заполнения канала пломбировочным материалом,  избегая пустот.
-                                        </a>
+                                        </p>
                                     </li>
                                     <li class="about-list-item">
                                         <img src="/images/about-icon-left.svg" alt="">
-                                        <a class="about-list-link" href="/">
+                                        <p class="about-list-text">
                                             Лечение под микроскопом обеспечивает максимальное
                                             сохранение зубной ткани.
-                                        </a>
+                                        </p>
                                     </li>
                                 </ul>
                             </div>
@@ -206,32 +238,32 @@
                                 <ul class="about-list-right">
                                     <li class="about-list-item">
                                         <img src="/images/about-icon-right.svg" alt="">
-                                        <a class="about-list-link" href="/">
+                                        <p class="about-list-text">
                                             Это работа вслепую. У стомотолога из инструментов есть только маленькое зеркало.
                                             Далеко не все проблемы можно увидеть
                                             таким способом.
-                                        </a>
+                                        </p>
                                     </li>
                                     <li class="about-list-item">
                                         <img src="/images/about-icon-right.svg" alt="">
-                                        <a class="about-list-link" href="/">
+                                        <p class="about-list-text">
                                             Если при обработке канала остались хотя бы небольшие участки
                                             поражённых тканей, в будущем это может привести к кистам и удалению зуба.
-                                        </a>
+                                        </p>
                                     </li>
                                     <li class="about-list-item">
                                         <img src="/images/about-icon-right.svg" alt="">
-                                        <a class="about-list-link" href="/">
+                                        <p class="about-list-text">
                                             При лечении без микроскопа нередкими бывают случаи перфорации
                                             стенок канала и вытекания пломбировочного материала в кость.
-                                        </a>
+                                        </p>
                                     </li>
                                     <li class="about-list-item">
                                         <img src="/images/about-icon-right.svg" alt="">
-                                        <a class="about-list-link" href="/">
+                                        <p class="about-list-text">
                                             При таком способе лечения чаще всего врач убирает и здоровые ткани
                                             зуба, тем самым истончая стенки канала.
-                                        </a>
+                                        </p>
                                     </li>
                                 </ul>
                             </div>
@@ -241,7 +273,7 @@
             </div>
         </section>
 
-        <section class="quote">
+        <div class="quote">
             <div class="container">
                 <div class="quote-inner">
                     <div class="quote-text"> 
@@ -287,91 +319,91 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
 
         <section class="treatment">
             <div class="container">
                 <div class="treatment-inner">
                     <h2 class="title-treatment">Современная эндодонтия включает в себя:</h2>
-                        <ul class="treatment-list">
-                            <div class="treatment-list-left-side">
+                        <div class="treatment-list-wrapper">
+                            <ul class="treatment-list-left-side">
                                 <li class="treatment-list-item">
                                     <img src="/images/treatment-icon.svg" alt="">
-                                    <a class="treatment-list-link treatment-list-link-question" href="/">
+                                    <p class="treatment-list-link treatment-list-link-question">
                                         Обязательную изоляцию зуба при помощи <strong>коффердама.</strong>
                                         <img class="treatment-image" src="images/treatment-question-mark-icon.svg" alt="">
-                                    </a>
+                                    </p>
                                 </li>
-                                <div class="treatment-tooltip">
+                                <li class="treatment-tooltip">
                                     <p>Специальная тонкая резиновая пленка, которая полностью исключает попадание слюны в полость
                                         зуба и защищает слизистую от раздражающего действия медикаментозных препаратов при
                                         обработке каналов.
                                     </p>
-                                </div>
+                                </li>
                                 <li class="treatment-list-item">
                                     <img src="/images/treatment-icon-2.svg" alt="">
-                                    <a class="treatment-list-link" href="/">
+                                    <p class="treatment-list-link">
                                         Очищение ручными и машинными инструментами даже самые узкие
                                         или искривленные каналы.
-                                    </a>
+                                    </p>
                                 </li>
                                 <li class="treatment-list-item">
                                     <img src="/images/treatment-icon-3.svg" alt="">
-                                    <a class="treatment-list-link" href="/">
+                                    <p class="treatment-list-link">
                                         Извлечение из корневых каналов инородных тел — сломанных
                                         инструментов.
-                                    </a>
+                                    </p>
                                 </li>
                                 <li class="treatment-list-item">
                                     <img src="/images/treatment-icon-4.svg" alt="">
-                                    <a class="treatment-list-link" href="/">
+                                    <p class="treatment-list-link">
                                         Промывание каналов специальными антисептическими средствами.
-                                    </a>
+                                    </p>
                                 </li>
                                 <li class="treatment-list-item">
                                     <img src="/images/treatment-icon-5.svg" alt="">
-                                    <a class="treatment-list-link" href="/">
+                                    <p class="treatment-list-link">
                                         При необходимости — временное пломбирование корневого канала
                                         лечебными пастами.
-                                    </a>
+                                    </p>
                                 </li>
-                            </div>
-                            <div class="treatment-list-right-side">
+                            </ul>
+                            <ul class="treatment-list-right-side">
                                 <li class="treatment-list-item">
                                     <img src="/images/treatment-icon-6.svg" alt="">
-                                    <a class="treatment-list-link" href="/">
+                                    <p class="treatment-list-link">
                                         Обязательную изоляцию зуба при помощи коффердама.
-                                    </a>
+                                    </p>
                                 </li>
                                 <li class="treatment-list-item">
                                     <img src="/images/treatment-icon-7.svg" alt="">
-                                    <a class="treatment-list-link" href="/">
+                                    <p class="treatment-list-link">
                                         Очищение ручными и машинными инструментами даже самые узкие
                                         или искривленные каналы.
-                                    </a>
+                                    </p>
                                 </li>
                                 <li class="treatment-list-item">
                                     <img src="/images/treatment-icon-8.svg" alt="">
-                                    <a class="treatment-list-link" href="/">
+                                    <p class="treatment-list-link">
                                         Извлечение из корневых каналов инородных тел — сломанных
                                         инструментов.
-                                    </a>
+                                    </p>
                                 </li>
                                 <li class="treatment-list-item">
                                     <img src="/images/treatment-icon-9.svg" alt="">
-                                    <a class="treatment-list-link" href="/">
+                                    <p class="treatment-list-link">
                                         Промывание каналов специальными антисептическими средствами.
-                                    </a>
+                                    </p>
                                 </li>
                                 <li class="treatment-list-item treatment-list-item-last">
                                     <img src="/images/treatment-icon-10.svg" alt="">
-                                    <a class="treatment-list-link" href="/">
+                                    <p class="treatment-list-link">
                                         При необходимости — временное пломбирование корневого канала
                                         лечебными пастами.
-                                    </a>
+                                    </p>
                                 </li>
-                            </div>
-                        </ul>
+                            </ul>
+                        </div>
                 </div>
             </div>
         </section>
@@ -392,7 +424,7 @@
             </div>
             <div class="container">
                 <div class="guarantee-inner">
-                    <h2 class="title">Лечение без боли</h2>
+                    <h2 class="title-guarantee">Лечение без боли</h2>
                     <div class="guarantee-box">
                         <div class="guarantee-left-side">
                             <p class="guarantee-description">
@@ -443,7 +475,7 @@
                 </div>
 
                 <div class="technologies-inner">
-                    <h2 class="technologies-title-2">Технологиии</h2>
+                    <h2 class="technologies-title-2">Технологии</h2>
                     <div class="technologies-box">
                         <div class="technologies-first-item">
                             <img class="technologies-image" src="/images/technologies-img-1.jpg" alt="">
@@ -506,14 +538,18 @@
                         <div class="case-switcher case-switcher-1024">
                             <!-- <img class="case-switcher-prev" src="/images/case-switcher-prev-img.svg" alt=""> -->
                             <!-- <img class="case-switcher-next" src="/images/case-switcher-next-img.svg" alt=""> -->
-                            <svg class="case-switcher-prev" width="51" height="50" viewBox="0 0 51 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <ellipse opacity="0.5" cx="25.4292" cy="25" rx="25.4292" ry="25" transform="rotate(-180 25.4292 25)" fill="#0057B1"/>
-                            <path d="M19.1228 24.925C19.1228 25.325 19.3262 25.625 19.5296 25.825C19.5296 25.825 19.6313 25.925 19.7331 25.925L24.412 30.625C24.9206 31.125 25.6326 31.125 26.1412 30.625C26.5481 30.125 26.5481 29.325 26.0395 28.925L23.1914 26.125L32.3459 26.125C33.0579 26.125 33.5665 25.625 33.5665 24.925C33.5665 24.225 33.0579 23.725 32.3459 23.725L23.2931 23.725L26.0395 21.025C26.5481 20.525 26.5481 19.825 26.0395 19.325C25.6326 18.925 24.8189 18.925 24.412 19.325L19.8348 23.825C19.4279 24.025 19.1228 24.425 19.1228 24.925Z" fill="white"/>
-                            </svg>                                
-                            <svg class="case-switcher-next" width="51" height="50" viewBox="0 0 51 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <ellipse cx="25.5444" cy="25" rx="25.4292" ry="25" fill="#0057B1"/>
-                            <path d="M33.8852 25.075C33.8852 24.675 33.6817 24.375 33.4783 24.175C33.4783 24.175 33.3766 24.075 33.2749 24.075L28.5959 19.375C28.0873 18.875 27.3753 18.875 26.8667 19.375C26.4599 19.875 26.4599 20.675 26.9684 21.075L29.8165 23.875H20.662C19.95 23.875 19.4414 24.375 19.4414 25.075C19.4414 25.775 19.95 26.275 20.662 26.275H29.7148L26.9684 28.975C26.4599 29.475 26.4599 30.175 26.9684 30.675C27.3753 31.075 28.189 31.075 28.5959 30.675L33.1732 26.175C33.58 25.975 33.8852 25.575 33.8852 25.075Z" fill="white"/>
-                            </svg>                                
+                            <button class="case-switcher-button" type="button">
+                                <svg class="case-switcher-prev" width="51" height="50" viewBox="0 0 51 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <ellipse opacity="0.5" cx="25.4292" cy="25" rx="25.4292" ry="25" transform="rotate(-180 25.4292 25)" fill="#0057B1"/>
+                                <path d="M19.1228 24.925C19.1228 25.325 19.3262 25.625 19.5296 25.825C19.5296 25.825 19.6313 25.925 19.7331 25.925L24.412 30.625C24.9206 31.125 25.6326 31.125 26.1412 30.625C26.5481 30.125 26.5481 29.325 26.0395 28.925L23.1914 26.125L32.3459 26.125C33.0579 26.125 33.5665 25.625 33.5665 24.925C33.5665 24.225 33.0579 23.725 32.3459 23.725L23.2931 23.725L26.0395 21.025C26.5481 20.525 26.5481 19.825 26.0395 19.325C25.6326 18.925 24.8189 18.925 24.412 19.325L19.8348 23.825C19.4279 24.025 19.1228 24.425 19.1228 24.925Z" fill="white"/>
+                                </svg>       
+                            </button>
+                            <button class="case-switcher-button" type="button">                     
+                                <svg class="case-switcher-next" width="51" height="50" viewBox="0 0 51 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <ellipse cx="25.5444" cy="25" rx="25.4292" ry="25" fill="#0057B1"/>
+                                <path d="M33.8852 25.075C33.8852 24.675 33.6817 24.375 33.4783 24.175C33.4783 24.175 33.3766 24.075 33.2749 24.075L28.5959 19.375C28.0873 18.875 27.3753 18.875 26.8667 19.375C26.4599 19.875 26.4599 20.675 26.9684 21.075L29.8165 23.875H20.662C19.95 23.875 19.4414 24.375 19.4414 25.075C19.4414 25.775 19.95 26.275 20.662 26.275H29.7148L26.9684 28.975C26.4599 29.475 26.4599 30.175 26.9684 30.675C27.3753 31.075 28.189 31.075 28.5959 30.675L33.1732 26.175C33.58 25.975 33.8852 25.575 33.8852 25.075Z" fill="white"/>
+                                </svg>
+                            </button>                            
                             <p class="case-switcher-numbers">1 из 3</p>
                         </div>
                     </div>
@@ -715,18 +751,29 @@
                             <div class="prices-left-side">
                                 <h3 class="prices-title">Распломбирование каналов зуба</h3>
                                 <ul class="prices-list">
-                                    <li class="prices-list-item"><a href="" class="prices-link">Анестезия и обезболивание</a></li>
-                                    <li class="prices-list-item"><a href="" class="prices-link">Снятие пломбы</a></li>
-                                    <li class="prices-list-item"><a href="" class="prices-link">Извлечение старого пломбировочного материала из каналов</a></li>
-                                    <li class="prices-list-item"><a href="" class="prices-link">Медикаментозная обработка корневых каналов</a></li>
-                                    <li class="prices-list-item"><a href="" class="prices-link">Рентгенологические снимки</a></li>
+                                    <li class="prices-list-item">
+                                        <p class="prices-link">Анестезия и обезболивание</p>
+                                    </li>
+                                    <li class="prices-list-item">
+                                        <p class="prices-link">Снятие пломбы</p>
+                                    </li>
+                                    <li class="prices-list-item">
+                                        <p class="prices-link">Извлечение старого пломбировочного материала из каналов</p>
+                                    </li>
+                                    <li class="prices-list-item">
+                                        <p class="prices-link">Медикаментозная обработка корневых каналов</p>
+                                    </li>
+                                    <li class="prices-list-item">
+                                        <p class="prices-link">Рентгенологические снимки</p>
+                                    </li>
                                 </ul>
-                                <p class="prices-note">* Цена зависит от количества каналов зуба</p>
+                                <p class="prices-note"><b>*</b> Цена зависит от количества каналов зуба</p>
                             </div>
                             <div class="prices-right-side">
                                 <h3 class="prices-title grey">от 6 500 до 13 000 рублей</h3>
                                 <a class="prices-link-right-side">
-                                    Узнать почему такая стоимость<img class="prices-image" src="/images/prices-arrow.svg" alt="">
+                                    Узнать почему такая стоимость
+                                    <img class="prices-image" src="/images/prices-arrow.svg" alt="">
                                 </a>
                             </div>
                         </div>
@@ -735,12 +782,20 @@
                         <div class="prices-left-side">
                             <h3 class="prices-title">Пломбирование каналов зуба</h3>
                             <ul class="prices-list">
-                                <li class="prices-list-item"><a href="" class="prices-link">Анестезия и обезболивание</a></li>
-                                <li class="prices-list-item"><a href="" class="prices-link">Механическая и медикаментозная обработка канала</a></li>
-                                <li class="prices-list-item"><a href="" class="prices-link">Пломбирование канала гуттаперчевыми штифтами</a></li>
-                                <li class="prices-list-item"><a href="" class="prices-link">Рентгенологические снимки</a></li>
+                                <li class="prices-list-item">
+                                    <p class="prices-link">Анестезия и обезболивание</p>
+                                </li>
+                                <li class="prices-list-item">
+                                    <p class="prices-link">Механическая и медикаментозная обработка канала</p>
+                                </li>
+                                <li class="prices-list-item">
+                                    <p class="prices-link">Пломбирование канала гуттаперчевыми штифтами</p>
+                                </li>
+                                <li class="prices-list-item">
+                                    <p class="prices-link">Рентгенологические снимки</p>
+                                </li>
                             </ul>
-                            <p class="prices-note">* Цена зависит от количества каналов зуба</p>
+                            <p class="prices-note"><b>*</b> Цена зависит от количества каналов зуба</p>
                         </div>
                         <div class="prices-right-side">
                             <h3 class="prices-title grey">от 7 500 до 14 700 рублей</h3>
@@ -753,14 +808,26 @@
                         <div class="prices-left-side">
                             <h3 class="prices-title">Распломбирование каналов с использованием микроскопа</h3>
                             <ul class="prices-list">
-                                <li class="prices-list-item"><a href="" class="prices-link">Используется высокотехнологичный операционный дентальный микроскоп, позволяющий с высокой точностью и качеством проводить эндодонтическое лечение</a></li>
-                                <li class="prices-list-item"><a href="" class="prices-link">Анестезия и обезболивание</a></li>
-                                <li class="prices-list-item"><a href="" class="prices-link">Снятие пломбы</a></li>
-                                <li class="prices-list-item"><a href="" class="prices-link">Извлечение старого пломбировочного материала из каналов</a></li>
-                                <li class="prices-list-item"><a href="" class="prices-link">Медикаментозная обработка корневых каналов</a></li>
-                                <li class="prices-list-item"><a href="" class="prices-link">Рентгенологические снимки</a></li>
+                                <li class="prices-list-item">
+                                    <p class="prices-link">Используется высокотехнологичный операционный дентальный микроскоп, позволяющий с высокой точностью и качеством проводить эндодонтическое лечение</p>
+                                </li>
+                                <li class="prices-list-item">
+                                    <p class="prices-link">Анестезия и обезболивание</p>
+                                </li>
+                                <li class="prices-list-item">
+                                    <p class="prices-link">Снятие пломбы</p>
+                                </li>
+                                <li class="prices-list-item">
+                                    <p class="prices-link">Извлечение старого пломбировочного материала из каналов</p>
+                                </li>
+                                <li class="prices-list-item">
+                                    <p class="prices-link">Медикаментозная обработка корневых каналов</p>
+                                </li>
+                                <li class="prices-list-item">
+                                    <p class="prices-link">Рентгенологические снимки</p>
+                                </li>
                             </ul>
-                            <p class="prices-note">* Цена зависит от количества каналов зуба</p>
+                            <p class="prices-note"><b>*</b> Цена зависит от количества каналов зуба</p>
                         </div>
                         <div class="prices-right-side">
                             <h3 class="prices-title grey">от 8 000 до 15 500 рублей</h3>
@@ -773,13 +840,23 @@
                         <div class="prices-left-side">
                             <h3 class="prices-title">Пломбирование каналов с использованием микроскопа</h3>
                             <ul class="prices-list">
-                                <li class="prices-list-item"><a href="" class="prices-link">Используется высокотехнологичный операционный дентальный микроскоп, позволяющий с высокой точностью и качеством проводить эндодонтическое лечение</a></li>
-                                <li class="prices-list-item"><a href="" class="prices-link">Анестезия и обезболивание</a></li>
-                                <li class="prices-list-item"><a href="" class="prices-link">Механическая и медикаментозная обработка канала</a></li>
-                                <li class="prices-list-item"><a href="" class="prices-link">Пломбирование канала гуттаперчевыми штифтами</a></li>
-                                <li class="prices-list-item"><a href="" class="prices-link">Рентгенологические снимки</a></li>
+                                <li class="prices-list-item">
+                                    <p class="prices-link">Используется высокотехнологичный операционный дентальный микроскоп, позволяющий с высокой точностью и качеством проводить эндодонтическое лечение</p>
+                                </li>
+                                <li class="prices-list-item">
+                                    <p class="prices-link">Анестезия и обезболивание</p>
+                                </li>
+                                <li class="prices-list-item">
+                                    <p class="prices-link">Механическая и медикаментозная обработка канала</p>
+                                </li>
+                                <li class="prices-list-item">
+                                    <p class="prices-link">Пломбирование канала гуттаперчевыми штифтами</p>
+                                </li>
+                                <li class="prices-list-item">
+                                    <p class="prices-link">Рентгенологические снимки</p>
+                                </li>
                             </ul>
-                            <p class="prices-note">* Цена зависит от количества каналов зуба</p>
+                            <p class="prices-note"><b>*</b> Цена зависит от количества каналов зуба</p>
                         </div>
                         <div class="prices-right-side">
                             <h3 class="prices-title grey">от 9 500 до 18 500 рублей</h3>
@@ -792,13 +869,23 @@
                         <div class="prices-top-side">
                             <h3 class="prices-title">Распломбирование каналов зуба</h3>
                             <ul class="prices-list">
-                                <li class="prices-list-item"><a href="" class="prices-link">Анестезия и обезболивание</a></li>
-                                <li class="prices-list-item"><a href="" class="prices-link">Снятие пломбы</a></li>
-                                <li class="prices-list-item"><a href="" class="prices-link">Извлечение старого пломбировочного материала из каналов</a></li>
-                                <li class="prices-list-item"><a href="" class="prices-link">Медикаментозная обработка корневых каналов</a></li>
-                                <li class="prices-list-item"><a href="" class="prices-link">Рентгенологические снимки</a></li>
+                                <li class="prices-list-item">
+                                    <p class="prices-link">Анестезия и обезболивание</p>
+                                </li>
+                                <li class="prices-list-item">
+                                    <p class="prices-link">Снятие пломбы</p>
+                                </li>
+                                <li class="prices-list-item">
+                                    <p class="prices-link">Извлечение старого пломбировочного материала из каналов</p>
+                                </li>
+                                <li class="prices-list-item">
+                                    <p class="prices-link">Медикаментозная обработка корневых каналов</p>
+                                </li>
+                                <li class="prices-list-item">
+                                    <p class="prices-link">Рентгенологические снимки</p>
+                                </li>
                             </ul>
-                            <p class="prices-note">* Цена зависит от количества каналов зуба</p>
+                            <p class="prices-note"><b>*</b> Цена зависит от количества каналов зуба</p>
                         </div>
                         <div class="prices-bottom-side">
                             <h3 class="prices-title grey">от 6 500 до 13 000 рублей</h3>
@@ -811,12 +898,20 @@
                         <div class="prices-top-side">
                             <h3 class="prices-title">Пломбирование каналов зуба</h3>
                             <ul class="prices-list">
-                                <li class="prices-list-item"><a href="" class="prices-link">Анестезия и обезболивание</a></li>
-                                <li class="prices-list-item"><a href="" class="prices-link">Механическая и медикаментозная обработка канала</a></li>
-                                <li class="prices-list-item"><a href="" class="prices-link">Пломбирование канала гуттаперчевыми штифтами</a></li>
-                                <li class="prices-list-item"><a href="" class="prices-link">Рентгенологические снимки</a></li>
+                                <li class="prices-list-item">
+                                    <p class="prices-link">Анестезия и обезболивание</p>
+                                </li>
+                                <li class="prices-list-item">
+                                    <p class="prices-link">Механическая и медикаментозная обработка канала</p>
+                                </li>
+                                <li class="prices-list-item">
+                                    <p class="prices-link">Пломбирование канала гуттаперчевыми штифтами</p>
+                                </li>
+                                <li class="prices-list-item">
+                                    <p class="prices-link">Рентгенологические снимки</p>
+                                </li>
                             </ul>
-                            <p class="prices-note">* Цена зависит от количества каналов зуба</p>
+                            <p class="prices-note"><b>*</b> Цена зависит от количества каналов зуба</p>
                         </div>
                         <div class="prices-bottom-side">
                             <h3 class="prices-title grey">от 7 500 до 14 700 рублей</h3>
@@ -829,14 +924,26 @@
                         <div class="prices-top-side">
                             <h3 class="prices-title">Распломбирование каналов с использованием микроскопа</h3>
                             <ul class="prices-list">
-                                <li class="prices-list-item"><a href="" class="prices-link">Используется высокотехнологичный операционный дентальный микроскоп, позволяющий с высокой точностью и качеством проводить эндодонтическое лечение</a></li>
-                                <li class="prices-list-item"><a href="" class="prices-link">Анестезия и обезболивание</a></li>
-                                <li class="prices-list-item"><a href="" class="prices-link">Снятие пломбы</a></li>
-                                <li class="prices-list-item"><a href="" class="prices-link">Извлечение старого пломбировочного материала из каналов</a></li>
-                                <li class="prices-list-item"><a href="" class="prices-link">Медикаментозная обработка корневых каналов</a></li>
-                                <li class="prices-list-item"><a href="" class="prices-link">Рентгенологические снимки</a></li>
+                                <li class="prices-list-item">
+                                    <p class="prices-link">Используется высокотехнологичный операционный дентальный микроскоп, позволяющий с высокой точностью и качеством проводить эндодонтическое лечение</p>
+                                </li>
+                                <li class="prices-list-item">
+                                    <p class="prices-link">Анестезия и обезболивание</p>
+                                </li>
+                                <li class="prices-list-item">
+                                    <p class="prices-link">Снятие пломбы</p>
+                                </li>
+                                <li class="prices-list-item">
+                                    <p class="prices-link">Извлечение старого пломбировочного материала из каналов</p>
+                                </li>
+                                <li class="prices-list-item">
+                                    <p class="prices-link">Медикаментозная обработка корневых каналов</p>
+                                </li>
+                                <li class="prices-list-item">
+                                    <p class="prices-link">Рентгенологические снимки</p>
+                                </li>
                             </ul>
-                            <p class="prices-note">* Цена зависит от количества каналов зуба</p>
+                            <p class="prices-note"><b>*</b> Цена зависит от количества каналов зуба</p>
                         </div>
                         <div class="prices-bottom-side">
                             <h3 class="prices-title grey">от 8 000 до 15 500 рублей</h3>
@@ -849,13 +956,23 @@
                         <div class="prices-top-side">
                             <h3 class="prices-title">Пломбирование каналов с использованием микроскопа</h3>
                             <ul class="prices-list">
-                                <li class="prices-list-item"><a href="" class="prices-link">Используется высокотехнологичный операционный дентальный микроскоп, позволяющий с высокой точностью и качеством проводить эндодонтическое лечение</a></li>
-                                <li class="prices-list-item"><a href="" class="prices-link">Анестезия и обезболивание</a></li>
-                                <li class="prices-list-item"><a href="" class="prices-link">Механическая и медикаментозная обработка канала</a></li>
-                                <li class="prices-list-item"><a href="" class="prices-link">Пломбирование канала гуттаперчевыми штифтами</a></li>
-                                <li class="prices-list-item"><a href="" class="prices-link">Рентгенологические снимки</a></li>
+                                <li class="prices-list-item">
+                                    <p class="prices-link">Используется высокотехнологичный операционный дентальный микроскоп, позволяющий с высокой точностью и качеством проводить эндодонтическое лечение</p>
+                                </li>
+                                <li class="prices-list-item">
+                                    <p class="prices-link">Анестезия и обезболивание</p>
+                                </li>
+                                <li class="prices-list-item">
+                                    <p class="prices-link">Механическая и медикаментозная обработка канала</p>
+                                </li>
+                                <li class="prices-list-item">
+                                    <p class="prices-link">Пломбирование канала гуттаперчевыми штифтами</p>
+                                </li>
+                                <li class="prices-list-item">
+                                    <p class="prices-link">Рентгенологические снимки</p>
+                                </li>
                             </ul>
-                            <p class="prices-note">* Цена зависит от количества каналов зуба</p>
+                            <p class="prices-note"><b>*</b> Цена зависит от количества каналов зуба</p>
                         </div>
                         <div class="prices-bottom-side">
                             <h3 class="prices-title grey">от 9 500 до 18 500 рублей</h3>
@@ -872,7 +989,7 @@
             <div class="container">
                 <div class="reception-inner">
                     <h2 class="title reception-title">Записаться на приём</h2>
-                    <form class="contacts-form" action="">
+                    <form class="contacts-form" action="URL">
                         <input class="reception-form-input" type="text" placeholder="Ваше имя">
                         <input class="reception-form-input" type="tel" placeholder="Номер телефона">
                         <button class="reception-button" type="submit">Записаться</button>
@@ -1244,8 +1361,12 @@
                             </div>
                             <div class="main-footer-messenger">
                                 <p class="main-footer-messenger-text">или через мессенджеры</p>
-                                <a class="main-footer-messenger-link-wh" href="#"></a>
-                                <a class="main-footer-messenger-link-tl" href="#"></a>
+                                <a class="main-footer-messenger-link-wh" href="#" tabindex="0">
+                                    <span class="visually-hidden">Whatsapp</span>
+                                </a>
+                                <a class="main-footer-messenger-link-tl" href="#" tabindex="0">
+                                    <span class="visually-hidden">Telegram</span>
+                                </a>
                             </div>
                             <div class="main-footer-container-column-768">
                                 <div class="main-footer-phones-768">
@@ -1254,8 +1375,12 @@
                                 </div>
                                 <div class="main-footer-messenger-768">
                                     <p class="main-footer-messenger-text-768">или через мессенджеры</p>
-                                    <a class="main-footer-messenger-link-wh-768" href="#" aria-label="whatsapp" tabindex="0"></a>
-                                    <a class="main-footer-messenger-link-tl-768" href="#" aria-label="telegram" tabindex="0"></a>
+                                    <a class="main-footer-messenger-link-wh-768" href="#" tabindex="0">
+                                        <span class="visually-hidden">Whatsapp</span>
+                                    </a>
+                                    <a class="main-footer-messenger-link-tl-768" href="#" tabindex="0">
+                                        <span class="visually-hidden">Telegram</span>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -1265,6 +1390,7 @@
         
     </main>
     
+    <script src="/js/jquery/dist/jquery.min.js"></script>
     <script src="/js/main.js"></script>
 </body>
 </html> 
