@@ -1858,7 +1858,7 @@ flex-shrink: 2;}
     width: 28px;
     height: 14px;
 
-    background-image: url("/images/question-answer-arrow.svg");
+    background-image: url("../images/question-answer-arrow.svg");
 
     transform: rotate(200grad);
 }
@@ -2489,7 +2489,7 @@ column-gap: 20px;}
             width: 30px;
             height: 30px;
 
-            background: url("..//images/main-header-1024-phone.svg") no-repeat 50% 50% / contain;
+            background: url("../images/main-header-1024-phone.svg") no-repeat 50% 50% / contain;
 
             vertical-align: middle;
         }
@@ -2720,7 +2720,7 @@ column-gap: 20px;}
                 left: 884px;
                 width: 20px;
 
-                background-image: url("/images/question-answer-arrow-1024.svg");
+                background-image: url("../images/question-answer-arrow-1024.svg");
                 background-repeat: no-repeat;
                 background-size: contain;
         }
@@ -2763,7 +2763,7 @@ column-gap: 20px;}
 
         width: 20px;
 
-        background-image: url("/images/question-answer-arrow-1024.svg");
+        background-image: url("../images/question-answer-arrow-1024.svg");
         background-repeat: no-repeat;
         background-size: contain;
     }
