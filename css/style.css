@@ -22,7 +22,7 @@ body {
 /* header start */
 
 .main-header {
-    background-image: url("images/main-header-bg.jpg");
+    background-image: url("../images/main-header-bg.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1689,7 +1689,7 @@ flex-shrink: 2;}
     width: 28px;
     height: 14px;
 
-    background-image: url("/images/question-answer-arrow.svg");
+    background-image: url("../images/question-answer-arrow.svg");
 }
 
 .white {
@@ -1739,7 +1739,7 @@ flex-shrink: 2;}
     width: 20px;
     height: 20px;
 
-    background-image: url("/images/about-icon-left.svg");
+    background-image: url("../images/about-icon-left.svg");
 }
 
 .question-answer-title {
@@ -2216,7 +2216,7 @@ column-gap: 20px;}
 
     width: 26px;
     height: 26px;
-    background: url("/images/messenger-icon-tl.svg") no-repeat 50% 50% / contain;
+    background: url("../images/messenger-icon-tl.svg") no-repeat 50% 50% / contain;
 
     vertical-align: middle;
 
