@@ -169,7 +169,6 @@ const swiper = new Swiper(".swiper-container", {
     //   slidesPerGroup: 1,
     //   clickable: true,
   });
-
   
 /*
 .menu {
@@ -187,6 +186,44 @@ const swiper = new Swiper(".swiper-container", {
 // document.querySelector('.button-hider').addEventListener('click', function () {
 //     document.querySelector('.pseudo-parent').classList.toggle('hide-before');
 // });
+
+// accordion start
+$(document).ready(function() {
+    $(".accordion__header").click(function(e) {
+        var accordionitem = $(this).attr("data-tab");
+        $("#" + accordionitem)
+            .slideToggle()
+            .parent()
+            .siblings()
+            .find(".accordion__content")
+            .slideUp();
+  
+        $(this).toggleClass("show");
+        $("#" + accordionitem)
+            .parent()
+            .siblings()
+            .find(".accordion__content")
+            .removeClass("show");
+  
+        $(".accordion__button", this).toggleClass("accordion__button_collapse");
+        $("#" + accordionitem)
+            .parent()
+            .siblings()
+            .find(".accordion__header")
+            .removeClass("accordion__button_collapse");
+    });
+  });
+
+  $(document).ready(function() {
+    var firstitem = $('.accordion__item:first').children();
+    // console.log(firstitem);
+    // firstitem.attr("data-tab");
+    firstitem.slideDown();
+    $(".accordion__button", firstitem).toggleClass("accordion__button_collapse");
+});
+// accordion end
+
+// modal start
 var popup = document.querySelector(".modal-login");
 var form = popup.querySelector("form");
 var login = popup.querySelector("[name=login]");
@@ -213,7 +250,6 @@ form.addEventListener("submit", function (evt) {
     }
 });
 
-
 link.addEventListener("click", function (evt) {
     evt.preventDefault();
     popup.classList.add("modal-show");
@@ -234,3 +270,4 @@ window.addEventListener("keydown", function(evt) {
         popup.classList.remove("modal-show");
     }
 });
+// modal end

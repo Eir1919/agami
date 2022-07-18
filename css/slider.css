@@ -52,7 +52,8 @@ button {
 } */
 
 .slider-container {
-	max-width: 1165px;
+	/* max-width: 1165px; */
+	max-width: 1440px;
 	/* padding: 0 15px; */
 	position: relative;
 	margin: 0 auto;
