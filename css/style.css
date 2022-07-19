@@ -389,7 +389,7 @@ body {
 .container-list-right {
     background-color: #f5f5f5;
 
-    max-width: 535px;
+    max-width: 100%;
 }
 
 .container-list-right-inner {
@@ -565,7 +565,7 @@ body {
 }
 
 .treatment-list-link {
-    width: 450px;
+    width: 100%;
     
     text-decoration: none;
 
@@ -3987,7 +3987,7 @@ column-gap: 20px;}
     }
 
     .reception-form-input {
-        max-width: 100%;
+        width: 100%;
     }
 
     /* .reception-button {
@@ -4081,7 +4081,7 @@ column-gap: 20px;}
 
     .doctors-items {
         column-gap: 20px;
-        row-gap: 20px;
+        row-gap: 40px;
     }
 
     .doctors-photo {
@@ -4117,7 +4117,7 @@ column-gap: 20px;}
     }
 
     .contacts-form {
-        min-width: 100%;
+        width: 100%;
     }
 
     .question-answer-title-up::after {
@@ -4295,10 +4295,10 @@ column-gap: 20px;}
     }
 
     .quote-inner {
-        /* flex-direction: column; */
+        flex-direction: column;
         gap: 0;
         
-        padding: 60px 40px 22px 20px;
+        padding: 60px 40px 40px 20px;
     }
 
     .treatment-inner {
@@ -4355,7 +4355,7 @@ column-gap: 20px;}
         display: flex;
         column-gap: 20px;
 
-        /* width: 658px; */
+        width: 100%;
     }
 
     .quote-icon {
@@ -4821,8 +4821,12 @@ column-gap: 20px;}
     }
 
     .treatment-tooltip {
-        left: 310px;
-        top: 2457px;
+        left: 270px;
+        top: 29px;
+    }
+
+    .treatment-list-left-side {
+        margin-bottom: 20px;
     }
 
     .treatment-list-item-last {
@@ -4958,6 +4962,14 @@ column-gap: 20px;}
         cursor: pointer;
         transition: opacity 0.3s;
     }
+
+    .card-reviews:first-child .reviews-top-part::after {
+        top: 131px;
+    }
+
+    .card-reviews:nth-child(4) .reviews-top-part::after {
+        top: 132px;
+    }
     /* case styles end */
 }
 
@@ -5023,11 +5035,6 @@ column-gap: 20px;}
         top: 5px;
 
         object-fit: contain;
-    }
-
-    .treatment-tooltip {
-        left: 310px;
-        top: 2482px;
     }
 
     .reviews-date p {
@@ -5176,11 +5183,6 @@ column-gap: 20px;}
         left: 403px;
     }
 
-    .treatment-tooltip {
-        left: 310px;
-        top: 2482px;
-    }
-
     .doctors-button-active {
         padding: 10px 28px;
     }
@@ -5249,6 +5251,10 @@ column-gap: 20px;}
         left: 610px;
     }
 
+    .accordion__button {
+        font-size: 19px;
+    }
+
     .main-footer-first-column,
     .main-footer-second-column,
     .main-footer-third-column {
@@ -5294,6 +5300,10 @@ column-gap: 20px;}
     .treatment-tooltip {
         left: 270px;
         top: 29px;
+    }
+
+    .treatment-list-left-side {
+        margin-bottom: 20px;
     }
 
     .case-main,
@@ -5460,13 +5470,12 @@ column-gap: 20px;}
         padding: 14px 20px;
     } */
 
-    .doctors-button-passive {
-        padding: 14px 18px;
+    .doctors-button-active {
+        padding: 10px 18px;
     }
 
-    .doctors-button-active,
     .doctors-button-passive {
-        font-size: 11.5px;
+        padding: 14px 18px;
     }
 
     /* .reviews-date {
@@ -5535,6 +5544,10 @@ column-gap: 20px;}
 
     .question-answer-title-down::after {
         left: 570px;
+    }
+
+    .accordion__button {
+        padding: 15px 40px 15px 20px;
     }
 
     .main-footer-address {
@@ -5608,11 +5621,11 @@ column-gap: 20px;}
     } */
 
     .doctors-button-active {
-        padding: 10px 17px;
+        padding: 12px 16px;
     }
 
     .doctors-button-passive {
-        padding: 14px 17px;
+        padding: 12px 16px;
     }
 
     .doctors-spec {
@@ -5637,27 +5650,23 @@ column-gap: 20px;}
     }
 
     .card-reviews:first-child .reviews-top-part::after {
-        width: 100%;
-
-        top: 119px;
+        top: 141px;
     }
 
     .card-reviews:nth-child(2) .reviews-top-part::after {
-        width: 100%;
+        top: 137px;
     }
 
     .card-reviews:nth-child(3) .reviews-top-part::after {
-        width: 100%;
+        top: 141px;
     }
 
     .card-reviews:nth-child(4) .reviews-top-part::after {
-        width: 100%;
+        top: 141px;
     }
 
     .card-reviews:last-child .reviews-top-part::after {
-        width: 100%;
-
-        top: 151px;
+        top: 141px;
     }
 
     .reviews-services {
@@ -5716,6 +5725,10 @@ column-gap: 20px;}
         left: 550px;
     }
 
+    .accordion__button {
+        font-size: 18px;
+    }
+
     .main-footer-address {
         width: 293px;
     }
@@ -5732,6 +5745,10 @@ column-gap: 20px;}
 @media (max-width: 650px) {
     .main-header {
         background-position: -70px 60px;
+    }
+
+    .quote-desc {
+        font-size: 29px;
     }
 
     .about-desc-text-left {
@@ -5800,6 +5817,9 @@ column-gap: 20px;}
     }
 
     .doctors-button-active {
+        display: inline-flex;
+        align-items: center;
+
         padding: 10px 20px;
     }
 
@@ -5809,6 +5829,10 @@ column-gap: 20px;}
 
     .reviews-top-part::after {
         top: 149px;
+    }
+
+    .card-reviews:last-child .reviews-top-part::after {
+        top: 163px;
     }
 
     .prices-item {
@@ -5860,6 +5884,10 @@ column-gap: 20px;}
         left: 530px;
     }
 
+    .accordion__button {
+        font-size: 17px;
+    }
+
     .rating-text {
         width: 100%;
     }
@@ -5873,6 +5901,10 @@ column-gap: 20px;}
 @media (max-width: 630px) {
     .main-header {
         background-position: -110px 60px;
+    }
+
+    .quote-desc {
+        font-size: 28px;
     }
 
     .site-navigation-list::after {
@@ -5965,7 +5997,7 @@ column-gap: 20px;}
     }
 
     .card-reviews:first-child .reviews-top-part::after {
-        top: 120px;
+        top: 141px;
     }
 
     .card-reviews:first-child .reviews-top-part::after,
@@ -6014,6 +6046,10 @@ column-gap: 20px;}
 
     .question-answer-title-down::after {
         left: 510px;
+    }
+
+    .accordion__button {
+        font-size: 16px;
     }
 
     .main-footer-address {
@@ -6131,6 +6167,11 @@ column-gap: 20px;}
     }
 
     .doctors-button-passive {
+        display: inline-flex;
+        align-items: center;
+
+        line-height: inherit;
+
         padding: 10px 28px;
     }
 
@@ -6151,9 +6192,7 @@ column-gap: 20px;}
     }
 
     .card-reviews:first-child .reviews-top-part::after {
-        width: 100%;
-
-        top: 126px;
+        top: 166px;
     }
 
     .card-reviews:nth-child(2) .reviews-top-part::after,
@@ -6188,14 +6227,14 @@ column-gap: 20px;}
     }
 
     .reception-form-input {
-        padding: 14px 10px;
+        padding: 14px 20px;
 
         font-size: 14px;
         margin: 0;
     }
 
     .reception-button {
-        padding: 14px;
+        padding: 14px 20px;
 
         font-size: 14px;
         margin: 0;
@@ -6223,6 +6262,18 @@ column-gap: 20px;}
 
     .question-answer-title-down::after {
         left: 480px;
+    }
+
+    .accordion__button {
+        display: flex;
+        align-items: center;
+    }
+
+    .accordion__button::after {
+        width: 1rem;
+        height: 0.75rem;
+  
+        background-size: 1rem;
     }
 
     .rating-container {
@@ -6312,6 +6363,15 @@ column-gap: 20px;}
         width: 410px;
     }
 
+    .quote-desc {
+        font-size: 27px;
+    }
+
+    .treatment-image {
+        left: 112px;
+        top: 31px;
+    }
+
     .treatment-tooltip {
         top: 47px;
         left: 173px;
@@ -6395,15 +6455,11 @@ column-gap: 20px;}
     }
 
     .card-reviews:first-child .reviews-top-part-580::after {
-        width: 100%;
-
         top: 144px;
     }
 
     .card-reviews:nth-child(2) .reviews-top-part-580::after {
-        width: 100%;
-
-        top: 160px;
+        top: 151px;
     }
 
     .card-reviews:nth-child(3) .reviews-top-part-580::after {
@@ -6548,7 +6604,7 @@ column-gap: 20px;}
     }
 
     .question-answer-text {
-        min-width: 100%;
+        min-width: 110%;
     }
 
     .question-answer-table {
@@ -6560,7 +6616,7 @@ column-gap: 20px;}
     }
 
     .question-answer-text-container-768 {
-        min-width: 100%;
+        min-width: 110%;
     }
 
     .question-answer-title-down::after {
@@ -6568,6 +6624,10 @@ column-gap: 20px;}
     }
 
     .question-answer-title-down {
+        font-size: 15px;
+    }
+
+    .accordion__button {
         font-size: 15px;
     }
 
@@ -6580,7 +6640,7 @@ column-gap: 20px;}
     }
 
     .question-answer-title {
-            min-width: 440px;
+        min-width: 440px;
     }
 }
 
@@ -6643,6 +6703,10 @@ column-gap: 20px;}
 
     .doctors-buttons {
         justify-content: unset;
+    }
+
+    .card-reviews:nth-child(2) .reviews-top-part-580::after {
+        top: 176px;
     }
 
     .lower-text {
@@ -6739,6 +6803,10 @@ column-gap: 20px;}
         left: 500px;
     }
 
+    .accordion__button {
+        font-size: 14px;
+    }
+
     .rating-text {
         width: 450px;
     }
@@ -6779,7 +6847,7 @@ column-gap: 20px;}
 
     .case-main,
     .case-wrapper {
-        height: 523px;
+        height: 505px;
     }
 
     .case-right-side {
@@ -6828,6 +6896,14 @@ column-gap: 20px;}
     .reviews-button::after {
         top: 24px;
         left: 154px;
+    }
+
+    .doctors-button-active {
+        padding: 10px 36px;
+    }
+
+    .doctors-button-passive {
+        padding: 14px 36px;
     }
 
     /* prices-inner ПЕРЕДЕЛАТЬ */
@@ -6997,7 +7073,8 @@ column-gap: 20px;}
     }
 
     .quote-desc {
-        font-size: 28px;
+        font-size: 27px;
+        line-height: 37px;
     }
 
     .quote-name-768 {
@@ -7025,7 +7102,7 @@ column-gap: 20px;}
 
     .case-main,
     .case-wrapper {
-        height: 510px;
+        height: 517px;
     }
 
     .case-right-side {
@@ -7055,6 +7132,14 @@ column-gap: 20px;}
         left: 293px;
     }
 
+    .doctors-button-active {
+        padding: 10px 28px;
+    }
+
+    .doctors-button-passive {
+        padding: 10px 26px;
+    }
+
     .upper-text {
         left: 40px;
         top: 159px;
@@ -7069,7 +7154,7 @@ column-gap: 20px;}
     .card-reviews:nth-child(3) .reviews-top-part-580::after,
     .card-reviews:nth-child(4) .reviews-top-part-580::after,
     .card-reviews:last-child .reviews-top-part-580::after {
-        width: 414px;
+        width: 100%;
     }
 
     .card-reviews:last-child .reviews-top-part-580::after {
@@ -7087,20 +7172,20 @@ column-gap: 20px;}
     }
 
     .doctors-buttons {
-        column-gap: 8px;
-        row-gap: 11px;
+        column-gap: 20px;
+        row-gap: 20px;
     }
 
     .prices-item-540:nth-child(6)::after {
-        top: 430px;
-    }
-
-    .prices-item-540:nth-child(7)::after {
         top: 405px;
     }
 
+    .prices-item-540:nth-child(7)::after {
+        top: 380px;
+    }
+
     .prices-item-540:nth-child(8)::after {
-        top: 585px;
+        top: 535px;
     }
 
     .question-answer-title-up {
@@ -7130,6 +7215,15 @@ column-gap: 20px;}
 
     .question-answer-title-down::after {
         left: 458px;
+    }
+
+    .accordion__item {
+        margin-left: -40px;
+        margin-right: -40px;
+    }
+
+    .accordion__button {
+        border-radius: 0;
     }
 
     .rating-text {
@@ -7219,7 +7313,7 @@ column-gap: 20px;}
 
     .case-main,
     .case-wrapper {
-        height: 527px;
+        height: 535px;
     }
 
     .case-right-side {
@@ -7292,7 +7386,7 @@ column-gap: 20px;}
     }
 
     .card-reviews:nth-child(4) .reviews-top-part-580::after {
-       top: 195px;
+       top: 176px;
     }
 
     .swiper-wrapper-control-reviews {
@@ -7312,6 +7406,10 @@ column-gap: 20px;}
     .prices-item-540:nth-child(7)::after,
     .prices-item-540:nth-child(8)::after {
         width: 100%;
+    }
+
+    .prices-item-540:nth-child(7)::after {
+        top: 405px;
     }
 
     .question-answer-title-up {
@@ -7340,6 +7438,11 @@ column-gap: 20px;}
 
     .question-answer-title-down::after {
         left: 448px;
+    }
+
+    .question-answer-inner-padding {
+        padding-left: 70px;
+        padding-right: 30px;
     }
 
     /* .technologies-second-item {
@@ -7805,13 +7908,19 @@ column-gap: 20px;}
         font-size: 26px;
     }
 
+    .treatment-image {
+        top: 30px;
+        left: 182px;
+        object-fit: cover;
+    }
+
     .technologies-box-490 {
         overflow: scroll hidden;
     }
 
     .case-main,
     .case-wrapper {
-        height: 519px;
+        height: 526px;
     }
 
     .case-right-side {
@@ -7851,7 +7960,7 @@ column-gap: 20px;}
     }
 
     .doctors-button-passive {
-        padding: 14px 20px;
+        padding: 10px 22px;
     }
 
     .reviews-button::after {
@@ -7906,6 +8015,14 @@ column-gap: 20px;}
         width: 100%;
     }
 
+    .prices-item-540:nth-child(6)::after {
+        top: 430px;
+    }
+
+    .prices-item-540:nth-child(8)::after {
+        top: 585px;
+    }
+
     .reception-title {
         font-size: 26px;
     }
@@ -7931,7 +8048,8 @@ column-gap: 20px;}
     }
 
     .question-answer-text-container-768 {
-        min-width: 330px;
+        width: 98%;
+        min-width: unset;
     }
 
     .question-answer-title-down {
@@ -8037,8 +8155,8 @@ column-gap: 20px;}
     } */
 
     .doctors-buttons {
-        column-gap: 10px;
-        row-gap: 10px;
+        column-gap: 15px;
+        row-gap: 15px;
     }
 
     .doctors-button-active {
@@ -8060,6 +8178,26 @@ column-gap: 20px;}
 
     .reviews-top-part-580::after {
         width: 353px;
+    }
+
+    .card-reviews:first-child .reviews-top-part-580::after {
+        top: 175px;
+    }
+
+    .card-reviews:nth-child(2) .reviews-top-part-580::after {
+        top: 201px;
+    }
+
+    .card-reviews:nth-child(3) .reviews-top-part-580::after {
+        top: 200px;
+    }
+
+    .card-reviews:nth-child(4) .reviews-top-part-580::after {
+        top: 201px;
+    }
+
+    .card-reviews:last-child .reviews-top-part-580::after {
+        top: 223px;
     }
 
     .prices-item-540:nth-child(6)::after,
@@ -8140,6 +8278,10 @@ column-gap: 20px;}
     .rating-company:nth-child(3) .rating-image {
         width: 90%;
     }
+}
+
+@media (max-width: 425px) {
+
 }
 
 @media (max-width: 430px) {
