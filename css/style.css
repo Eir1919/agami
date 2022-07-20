@@ -542,19 +542,14 @@ body {
 .treatment-tooltip {
     display: none;
     position: absolute;
-    left: 622px;
-    top: 1983px;
+    left: 291px;
+    top: 36px;
     z-index: 1;
     max-width: 260px;
     padding: 20px;
     background-color: #ffffff;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
-}
-
-.treatment-tooltip {
-    left: 63px;
-    top: 51px;
 }
 
 .treatment-tooltip p {
@@ -581,8 +576,8 @@ body {
 
 .treatment-image {
     position: absolute;
-    left: 111px;
-    top: 28px;
+    left: 459px;
+    top: 1px;
 
     cursor: pointer;
 }
@@ -2524,9 +2519,14 @@ column-gap: 20px;}
             max-width: 390px;
         }
 
+        .treatment-image {
+            left: 116px;
+            top: 26px;
+        }
+
         .treatment-tooltip {
-            left: 65px;
-            top: 50px;
+            left: 177px;
+            top: 49px;
         }
 
         .main-header-1024 {
